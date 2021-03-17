@@ -39,8 +39,80 @@
 } */
 
 .service-section-2 > h1 {
+  position: absolute;
+  background: none;
+  color: #262626;
+  top: 200px;
+  left: 50%;
+  width: 100%;
+  font-size: 60px;
+}
+
+.service-section-2 > h2 {
+  position: absolute;
   background: none;
   color: #fff;
-  font-size: 100px;
-  margin-top: -100px;
+  top: 300px;
+  left: 50%;
+  width: 100%;
+  /* font-size: 100px;
+  margin-top: -100px; */
+}
+
+.service-section-2 > p {
+  position: absolute;
+  background: none;
+  color: #fff;
+  top: 360px;
+  left: 50%;
+  width: 40%;
+  /* font-size: 100px;
+  margin-top: -100px; */
+}
+
+.service-section-2 > button {
+  position: absolute;
+  color: #fff;
+  top: 520px;
+  left: 50%;
+  /* font-size: 100px;
+  margin-top: -100px; */
+}
+
+.check-mark-section {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  position: absolute;
+  /* color: #fff; */
+  background: none;
+  top: 600px;
+  left: 50%;
+  width: 50%;
+  /* font-size: 100px;
+  margin-top: -100px; */
+}
+
+.check-mark-section > div {
+  background: none;
+}
+
+.check-mark-section > div > div {
+  background: none;
+}
+
+.check-mark-section > div > div > h2 {
+  background: none;
+  color: #262626;
+}
+
+.check-mark-section > div > div > p {
+  background: none;
+  color: #fff;
+}
+
+.check-mark-section > div > img {
+  background: none;
+  margin-right: 10px;
+  width: 40px;
+  height: auto;
 }
