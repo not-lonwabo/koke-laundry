@@ -1,0 +1,142 @@
+.NavbarItems {
+  background-color: rgb(249, 249, 250);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #303030;
+  font-size: 15;
+  font-weight: 700;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.social-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.nav-links {
+  color: #888888;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.social-links {
+  color: #303030;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 0.25rem 0.25rem;
+}
+
+.nav-links:hover {
+  color: #007eff;
+}
+
+.social-links:hover {
+  color: #007eff;
+}
+
+.fa-bars {
+  color: #888888;
+}
+
+.fa-times {
+  color: #888888;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .NavbarItems {
+    background-color: #fff;
+    position: relative;
+    height: 100px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    background-color: #fff;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 189px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    padding: 0 15px;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    z-index: 1;
+  }
+
+  .nav-links {
+    font-size: 13px;
+    line-height: 26px;
+    background-color: #fff;
+    border-bottom: solid 1px #eaeaea;
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    background-color: #007eff;
+  }
+
+  .navbar-logo {
+    margin: 0;
+    font-size: 24px;
+    background-color: #fff;
+    position: absolute;
+    color: #303030;
+    justify-self: center;
+  }
+
+  .menu-icon {
+    background-color: #fff !important;
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 765px) {
+
+  .social-links {
+    display: none;
+  }
+}

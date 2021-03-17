@@ -1,0 +1,130 @@
+.hero-section {
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  height: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-image {
+  width: 250px;
+  height: 273px;
+  margin-right: 100px;
+}
+
+.second-image {
+  width: 251px;
+  height: 255px;
+  margin-right: 100px;
+}
+
+.third-image {
+  width: 289px;
+  height: 259px;
+}
+
+.header-container {
+  position: relative;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header {
+  font-size: 75px;
+  line-height: 90px;
+  font-weight: 700;
+  text-align: inherit;
+  color: rgb(38, 38, 38);
+  letter-spacing: 0px;
+  visibility: inherit;
+  white-space: nowrap;
+}
+
+.sub-header {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  color: rgb(102, 102, 102);
+  margin-bottom: 20px;
+}
+
+/* @media screen and (max-width: 1000px) {
+
+  .image-container
+} */
+
+@media screen and (max-width: 850px) {
+
+  .image-container {
+    position: relative;
+    height: 440px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .first-image {
+    width: 189px;
+    height: 206px;
+    margin-right: 60px;
+  }
+  
+  .second-image {
+    width: 193px;
+    height: 196px;
+    margin-right: 60px;
+  }
+  
+  .third-image {
+    width: 212px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .image-container {
+    margin-top: 120px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .first-image {
+    display: none;
+  }
+  
+  .second-image {
+    width: 193px;
+    height: 196px;
+    margin-right: 0;
+  }
+  
+  .third-image {
+    display: none;
+  }
+
+  .main-header {
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 700;
+    color: rgb(38, 38, 38)
+  }
+  
+  /* .sub-header {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    color: rgb(102, 102, 102);
+    margin-bottom: 20px;
+  } */
+}
